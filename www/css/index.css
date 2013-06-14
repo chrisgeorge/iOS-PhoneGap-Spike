@@ -113,3 +113,26 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+.header {
+	background: #000;
+}
+
+.separator {
+	font-size: 40px;
+	text-decoration: none;
+	text-align: center;
+	background: #910020;
+}
+
+#story {
+	font-size: 28px;
+}
+
+#story-date {
+	background: #000;
+}
+
+#story-title, #story-body {
+	margin-left: 10px;
+}
