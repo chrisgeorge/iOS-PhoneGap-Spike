@@ -119,20 +119,40 @@ h1 {
 }
 
 .separator {
-	font-size: 40px;
-	text-decoration: none;
+    color: #fff;
+	font-size: 16px;
 	text-align: center;
 	background: #910020;
 }
 
-#story {
-	font-size: 28px;
-}
-
 #story-date {
 	background: #000;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
 }
 
-#story-title, #story-body {
+#story-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#story-summary {
+    font-style: italic;
+    font-size: 12px;
+}
+
+#story-transcript {
+    font-size: 12px;
+}
+
+#story-title, #story-summary, #story-transcript {
 	margin-left: 10px;
+}
+
+#transcript-header {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
 }
