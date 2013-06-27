@@ -1,0 +1,42 @@
+<div data-role="page" id="show">
+
+    <div data-role="header" class="header">
+        <img src="img/logo.png" height="50" width="90" alt="DN Logo"/>
+    </div>
+
+    <div data-role="content" class="ui-content" role="main">
+    <h3 id="date" class="ui-li-heading">{{{date}}}</h3>
+        <ul data-role="listview" data-split-icon="gear" data-split-theme="d" class="ui-listview">
+            <li onclick="goToStory({{{story1id}}}, false)" class="ui-li-has-thumb ui-btn ui-btn-icon-right ui-li ui-li-has-alt ui-btn-down-c ui-btn-up-c" data-theme="c">
+                <a href="#" class="ui-link-inherit">
+                    <img src="img/cordova.png" class="ui-li-thumb">
+                    <h3 class="ui-li-heading">{{{story1title}}}</h3>
+                    <p class="ui-li-desc">summary</p>
+                </a>
+                <a href="#" data-rel="dialog" data-transition="slideup" title="Purchase album" class="ui-li-link-alt ui-btn ui-btn-up-c" data-theme="c"><span class="ui-btn-inner ui-li ui-li-has-alt"><span class="ui-btn-text"></span><span title="" data-theme="d" class="ui-btn ui-btn-up-d ui-btn-icon-notext ui-btn-corner-all ui-shadow"><span class="ui-btn-inner ui-btn-corner-all ui-li ui-li-has-alt"><span class="ui-btn-text"></span><span class="ui-icon ui-icon-gear ui-icon-shadow"></span></span></span></span></a>
+            </li>
+
+            <li onclick="goToStory({{{story2id}}}, false)" class="ui-li-has-thumb ui-btn ui-btn-icon-right ui-li ui-li-has-alt ui-btn-down-c ui-btn-up-c" data-theme="c">
+                <a href="#" class="ui-link-inherit">
+                    <img src="img/cordova.png" class="ui-li-thumb">
+                    <h3 class="ui-li-heading">{{{story2title}}}</h3>
+                    <p class="ui-li-desc">summary</p>
+                </a>
+                <a href="#" data-rel="dialog" data-transition="slideup" title="Purchase album" class="ui-li-link-alt ui-btn ui-btn-up-c" data-theme="c"><span class="ui-btn-inner ui-li ui-li-has-alt"><span class="ui-btn-text"></span><span title="" data-theme="d" class="ui-btn ui-btn-up-d ui-btn-icon-notext ui-btn-corner-all ui-shadow"><span class="ui-btn-inner ui-btn-corner-all ui-li ui-li-has-alt"><span class="ui-btn-text"></span><span class="ui-icon ui-icon-gear ui-icon-shadow"></span></span></span></span></a>
+            </li>
+
+            <li onclick="goToStory({{{story3id}}}, false)" class="ui-li-has-thumb ui-btn ui-btn-icon-right ui-li ui-li-has-alt ui-btn-down-c ui-btn-up-c" data-theme="c">
+                <a href="#" class="ui-link-inherit">
+                    <img src="img/cordova.png" class="ui-li-thumb">
+                    <h3 class="ui-li-heading">{{{story3title}}}</h3>
+                    <p class="ui-li-desc">summary</p>
+                </a>
+                <a href="#" data-rel="dialog" data-transition="slideup" title="Purchase album" class="ui-li-link-alt ui-btn ui-btn-up-c" data-theme="c"><span class="ui-btn-inner ui-li ui-li-has-alt"><span class="ui-btn-text"></span><span title="" data-theme="d" class="ui-btn ui-btn-up-d ui-btn-icon-notext ui-btn-corner-all ui-shadow"><span class="ui-btn-inner ui-btn-corner-all ui-li ui-li-has-alt"><span class="ui-btn-text"></span><span class="ui-icon ui-icon-gear ui-icon-shadow"></span></span></span></span></a>
+            </li>
+        </ul>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <h3>Welcome to Democracy Now!</h3>
+    </div>
+</div>

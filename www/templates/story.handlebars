@@ -1,0 +1,36 @@
+<div data-role="page" id="story-{{{id}}}" class="storyPage">
+
+    <div data-role="header" class="header" onclick="goHome()">
+        <img src="img/logo.png" height="50" width="90" alt="DN Logo"/>
+    </div>
+
+    <div data-role="content">
+        <div id="story-date">{{{date}}}</div>
+        <div id="story">
+            <div id="story-title">{{{title}}}</div>
+
+            <div id="story-audio">
+                <audio controls id="audio">
+                    <source src="{{{audio_url}}}" type="audio/mpeg">
+                    Your browser does not support this audio format.
+                </audio>
+            </div>
+
+            <div id="story-video">
+                <video id="video" width="320" height="240" controls>
+                    <source src="{{{video_url}}}" type="video/mp4">
+                </video>
+            </div>
+            <div id="story-summary">{{{summary}}}</div>
+            <div id="transcript-header">Transcript</div>
+            <div id="story-transcript">{{{transcript}}}</div>
+        </div>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <a data-icon="arrow-l" data-rel="back">Back</a>
+        <a onclick="goHome()" data-icon="home">Home</a>
+    </div>
+
+
+</div>

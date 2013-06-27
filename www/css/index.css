@@ -2,15 +2,8 @@
 	background: #000;
 }
 
-.separator {
-    color: #fff;
-	font-size: 16px;
-	text-align: center;
+#story-date, #date {
 	background: #910020;
-}
-
-#story-date {
-	background: #000;
     color: #fff;
     font-size: 24px;
     text-align: center;
@@ -30,10 +23,6 @@
     font-size: 12px;
 }
 
-#story-title, #story-summary, #story-transcript, #audio-controls {
-	margin-left: 10px;
-}
-
 #transcript-header {
     text-align: center;
     margin-top: 10px;
@@ -41,12 +30,7 @@
     font-weight: bold;
 }
 
-#story-audio {
-    margin-bottom: 5px;
-}
-
-#audio-controls {
+#story-audio{
     margin-top: 10px;
     margin-bottom: 10px;
-    color: blue;
 }
