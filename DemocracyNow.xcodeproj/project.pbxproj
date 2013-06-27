@@ -482,6 +482,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Julie Crosby (EBCA9M9DRF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Julie Crosby (EBCA9M9DRF)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -492,6 +494,8 @@
 				INFOPLIST_FILE = "DemocracyNow/DemocracyNow-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = DemocracyNow;
+				PROVISIONING_PROFILE = "775B6556-E19E-4F05-BB40-1B0819D63E3F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "775B6556-E19E-4F05-BB40-1B0819D63E3F";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -501,6 +505,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DEMOCRACY NOW PRODUCTIONS INC (TRY6XW8PT8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: DEMOCRACY NOW PRODUCTIONS INC (TRY6XW8PT8)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemocracyNow/DemocracyNow-Prefix.pch";
@@ -509,6 +515,8 @@
 				INFOPLIST_FILE = "DemocracyNow/DemocracyNow-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = DemocracyNow;
+				PROVISIONING_PROFILE = "8E9F9ED5-00C2-4DD0-B7E4-CF1E36DFF74E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8E9F9ED5-00C2-4DD0-B7E4-CF1E36DFF74E";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -521,7 +529,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Julie Crosby (EBCA9M9DRF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Julie Crosby (EBCA9M9DRF)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -547,6 +556,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
+				PROVISIONING_PROFILE = "775B6556-E19E-4F05-BB40-1B0819D63E3F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "775B6556-E19E-4F05-BB40-1B0819D63E3F";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -561,7 +572,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DEMOCRACY NOW PRODUCTIONS INC (TRY6XW8PT8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: DEMOCRACY NOW PRODUCTIONS INC (TRY6XW8PT8)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -587,6 +599,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
+				PROVISIONING_PROFILE = "8E9F9ED5-00C2-4DD0-B7E4-CF1E36DFF74E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8E9F9ED5-00C2-4DD0-B7E4-CF1E36DFF74E";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
